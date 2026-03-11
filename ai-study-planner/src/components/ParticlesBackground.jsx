@@ -12,10 +12,16 @@ const ParticlesBackground = () => {
     <Particles
       id="tsparticles"
       init={particlesInit}
+      style={{
+        position: "absolute",
+        inset: 0,
+        zIndex: 0,
+        pointerEvents: "none"
+      }}
       options={{
         background: {
           color: {
-            value: "#070710"
+            value: "transparent"
           }
         },
 
@@ -42,7 +48,7 @@ const ParticlesBackground = () => {
           },
 
           size: {
-            value: { min: 2, max: 4 }
+            value: { min: 1, max: 3 }
           },
 
           move: {
@@ -56,8 +62,7 @@ const ParticlesBackground = () => {
         },
 
         fullScreen: {
-          enable: true,
-          zIndex: -1
+          enable: false
         }
       }}
     />
