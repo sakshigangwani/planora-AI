@@ -1,0 +1,11 @@
+@keyframes moveGradient {
+  0% {
+    background-position: 20% 20%, 80% 80%;
+  }
+  50% {
+    background-position: 25% 30%, 75% 70%;
+  }
+  100% {
+    background-position: 20% 20%, 80% 80%;
+  }
+}
