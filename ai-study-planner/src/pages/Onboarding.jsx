@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { FaBrain, FaGoogle } from "react-icons/fa";
 import "../styles.css";
+import ParticlesBackground from "../components/ParticlesBackground";
 
 function Onboarding() {
 
@@ -17,6 +18,7 @@ function Onboarding() {
 
     return (
         <div className="animatedBackground">
+            <ParticlesBackground />
             <FaBrain size={42} color="#A855F7" style={{ marginBottom: "15px" }} />
             <h1 style={{
                 fontSize: "38px",
