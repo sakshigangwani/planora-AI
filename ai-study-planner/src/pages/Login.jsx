@@ -224,7 +224,7 @@ function Login() {
           {/* Floating UI Cards */}
 
           <div
-            className="loginFloatingTag"
+            className="loginFloatingTag loginFloatingTagOne"
             style={{
               position: "absolute",
               top: "120px",
@@ -239,7 +239,7 @@ function Login() {
           </div>
 
           <div
-            className="loginFloatingTag"
+            className="loginFloatingTag loginFloatingTagTwo"
             style={{
               position: "absolute",
               bottom: "120px",
@@ -254,7 +254,7 @@ function Login() {
           </div>
 
           <div
-            className="loginFloatingTag"
+            className="loginFloatingTag loginFloatingTagThree"
             style={{
               position: "absolute",
               bottom: "60px",
@@ -269,7 +269,7 @@ function Login() {
           </div>
 
           <div
-            className="loginFloatingTag"
+            className="loginFloatingTag loginFloatingTagFour"
             style={{
               position: "absolute",
               top: "70px",

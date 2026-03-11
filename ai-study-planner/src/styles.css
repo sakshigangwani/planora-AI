@@ -180,7 +180,33 @@
 
 @media (max-width: 900px) {
   .loginFloatingTag {
-    display: none;
+    font-size: 12px;
+    padding: 8px 10px !important;
+    border-radius: 10px !important;
+    backdrop-filter: blur(6px);
+    max-width: 46%;
+  }
+
+  .loginFloatingTagOne {
+    top: 22% !important;
+    left: 10% !important;
+  }
+
+  .loginFloatingTagTwo {
+    top: 8% !important;
+    right: 10% !important;
+    bottom: auto !important;
+  }
+
+  .loginFloatingTagThree {
+    bottom: 12% !important;
+    left: 12% !important;
+  }
+
+  .loginFloatingTagFour {
+    bottom: 20% !important;
+    right: 8% !important;
+    top: auto !important;
   }
 }
 
@@ -196,5 +222,31 @@
 
   .loginRightPane {
     min-height: 260px;
+  }
+
+  .loginFloatingTag {
+    font-size: 11px;
+    padding: 6px 8px !important;
+    max-width: 44%;
+  }
+
+  .loginFloatingTagOne {
+    top: 20% !important;
+    left: 6% !important;
+  }
+
+  .loginFloatingTagTwo {
+    top: 10% !important;
+    right: 6% !important;
+  }
+
+  .loginFloatingTagThree {
+    bottom: 10% !important;
+    left: 8% !important;
+  }
+
+  .loginFloatingTagFour {
+    bottom: 18% !important;
+    right: 5% !important;
   }
 }
